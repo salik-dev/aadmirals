@@ -14,8 +14,6 @@
 
 # production
 /build
-/Assets
-/public/Assets
 # misc
 .DS_Store
 *.pem
