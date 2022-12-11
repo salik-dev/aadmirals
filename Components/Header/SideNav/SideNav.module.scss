@@ -11,7 +11,7 @@
   .menuButton {
     display: flex;
     height: auto;
-    background-color: white;
+    background-color: #101820;
     position: relative;
     z-index: 11;
     .smLogo {
@@ -20,6 +20,9 @@
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         width: 4rem;
+      }
+      .logo1{
+        width: 110px;
       }
     }
     text-align: center;

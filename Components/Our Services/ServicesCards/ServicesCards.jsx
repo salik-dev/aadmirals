@@ -32,20 +32,16 @@ function ServicesCards({ image, description, title, url }) {
           <div className={styles.cardsContainer}>
             <div className={styles.cards}>
               <div className={styles.cardImage}>
-                 <Image priority={true} src={image} alt={title} width={50} height={30}   blurDataURL="https://www.pexels.com/photo/dark-blur-blurred-gradient-1526/"
-                layout="responsive" objectFit="cover" />
-
+                <Image priority={true} src={image} alt={title} width={50} height={30} blurDataURL="https://www.pexels.com/photo/dark-blur-blurred-gradient-1526/"
+                  layout="responsive" objectFit="cover" />
               </div>
               <div className={styles.cardDetail}>
                 <h3>{title}</h3>
-
                 <ReadMoreReact min={40}
                   ideal={50}
                   max={100}
                   readMoreText={'Read More'} text={description}
                 />
-
-
               </div>
             </div>
           </div>

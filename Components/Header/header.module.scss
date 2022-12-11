@@ -13,6 +13,9 @@
     width: 110px;
     margin-bottom: -20px;
   }
+  .logo_text{
+    color: white;
+  }
 
   .divider {
     border-left: 1px solid black;
@@ -39,13 +42,9 @@
       font-size: 0.8rem;
     }
   }
-  .sub {
-    // font-size: 23px;
-  }
 }
 @media only screen and (max-width: 767px) {
   /* phones */
-
   //   write css here
   .navbar_border {
     display: none !important;

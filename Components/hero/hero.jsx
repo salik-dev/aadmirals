@@ -10,7 +10,7 @@ const Hero = ({ Text, Form, MotoHidden, img, Title }) => {
 <div>
    
     {/* <div className={styles.mainDiv}>
-     
+    
     </div> */}
       <Image priority={true}
         alt={Title}

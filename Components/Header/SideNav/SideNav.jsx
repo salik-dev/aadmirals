@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./SideNav.module.scss";
 import { useRouter } from "next/router";
-import  Link from "next/link";
+import Link from "next/link";
 
 
 
@@ -17,7 +17,6 @@ function SideNav() {
   const [isOpenEvents, setIsOpenEvents] = useState(false);
   const [isOpenCelebration, setIsOpenCelebration] = useState(false);
   const [isOpenCities, setIsOpenCities] = useState(false);
-
   const toggleService = () => {
     setIsOpenService(!isOpenService);
     setIsOpenCities(false);
@@ -63,20 +62,20 @@ function SideNav() {
           </button>
         </div>
         <div className={styles.smLogo}>
-          <img src="/Assets/Group1077.svg" alt="1website logo" />
+          <img src="/Assets/logo-header.svg" alt="1website logo" className={styles.logo1} />
         </div>
       </div>
-     {SideNavOpen ? (
+      {SideNavOpen ? (
         <div className={styles.sideNav}>
           <div className={styles.sideNavUp}>
-            <img src="/Assets/Group1077.svg" alt="2website logo" />
+            <img src="/Assets/logo-header.svg" alt="2website logo" />
             <button onClick={(e) => setSideNavOpen(false)}>X</button>
           </div>
           <ul>
             <Link href="/">
               <a><li>home</li></a>
             </Link>
-             <li onClick={toggleService}>
+            <li onClick={toggleService}>
               <Link href="/services">
                 <a className="custom_lniks_mobile">Services</a>
               </Link>
@@ -115,7 +114,7 @@ function SideNav() {
               </Link>
               <li onClick={toggleCity} className={styles.liDropStyle}>
                 <Link href="/city-to-city-transfer">
-                  <a className="grey_submenu">city to city transfer</a> 
+                  <a className="grey_submenu">city to city transfer</a>
                 </Link>
                 <i
                   style={{ marginLeft: "82px", marginRight: "20px" }}
@@ -123,23 +122,23 @@ function SideNav() {
                 ></i>
               </li>
               <Collapse isOpen={isOpenCity}>
-              <Link href="/city-to-city-transfer/houston-to-lake-jackson">
-                 <a> <li className={styles.liDropStyle}>
+                <Link href="/city-to-city-transfer/houston-to-lake-jackson">
+                  <a> <li className={styles.liDropStyle}>
                     houston to lake jackson
                   </li></a>
                 </Link>
                 <Link href="/city-to-city-transfer/houston-to-victoria">
-                 <a> <li className={styles.liDropStyle}>
+                  <a> <li className={styles.liDropStyle}>
                     houston to victoria
                   </li></a>
                 </Link>
                 <Link href="/city-to-city-transfer/houston-to-college-station">
-                 <a> <li className={styles.liDropStyle}>
+                  <a> <li className={styles.liDropStyle}>
                     houston to college station
                   </li></a>
                 </Link>
                 <Link href="/city-to-city-transfer/houston-to-austin">
-                 <a> <li className={styles.liDropStyle}>houston to austin</li></a>
+                  <a> <li className={styles.liDropStyle}>houston to austin</li></a>
                 </Link>
                 <Link href="/city-to-city-transfer/houston-to-dallas">
                   <a><li className={styles.liDropStyle}>houston to dallas</li></a>
@@ -157,8 +156,8 @@ function SideNav() {
                 </Link>
               </Collapse>
               <li onClick={toggleEvents} className={styles.liDropStyle}>
-              <Link href="/events">
-                  <a className="grey_submenu">events transfer</a> 
+                <Link href="/events">
+                  <a className="grey_submenu">events transfer</a>
                 </Link>
                 <i
                   style={{ marginLeft: "108px", marginRight: "20px" }}
@@ -182,8 +181,8 @@ function SideNav() {
                 </Link>
               </Collapse>
               <li onClick={toggleCelebration} className={styles.liDropStyle}>
-              <Link href="/celebrations">
-                  <a className="grey_submenu">celebration transfer</a> 
+                <Link href="/celebrations">
+                  <a className="grey_submenu">celebration transfer</a>
                 </Link>
                 <i
                   style={{ marginLeft: "78px", marginRight: "20px" }}
@@ -248,7 +247,7 @@ function SideNav() {
                 <a><li className={styles.liDropStyle}>richmond limo service</li></a>
               </Link>
               <Link href="/cities/katy-limo-car-service">
-               <a> <li className={styles.liDropStyle}>katy limo service</li></a>
+                <a> <li className={styles.liDropStyle}>katy limo service</li></a>
               </Link>
             </Collapse>
             <Link href="/fleet">
@@ -267,12 +266,12 @@ function SideNav() {
               <a><li>Blog</li></a>
             </Link>
 
-          <Link href="/cancel-booking-email-verify">
+            <Link href="/cancel-booking-email-verify">
               <a><li className={styles.canc}>Cancel a Booking?</li></a>
             </Link>
             <Link href="/refund-request">
               <a><li className={styles.canc}>Refund Request</li></a>
-            </Link> 
+            </Link>
           </ul>
 
           <div className={styles.bottomButton}>
@@ -287,7 +286,7 @@ function SideNav() {
             </Button>
           </div>
         </div>
-      ) : null} 
+      ) : null}
     </div>
   );
 }

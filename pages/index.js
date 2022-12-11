@@ -53,12 +53,14 @@ const Home = (props) => {
   useEffect(() => {
     dispatch(getHomePage());
   }, []);
+  
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 1, itemsToScroll: 2 },
     { width: 768, itemsToShow: 3 },
     { width: 1200, itemsToShow: 3 },
   ];
+
   const cancelBooking = useSelector((state) => state.cancelBooking);
   const { success } = cancelBooking;
   const succ = () => {
@@ -146,14 +148,13 @@ const Home = (props) => {
             <h2 style={{paddingTop:'60px'}}>WHAT OUR CUSTOMERS ARE SAYING</h2>
           </Col>
 
-
           <Swiper slidesPerView={1} spaceBetween={30} autoplay={{
             "delay": 2500,
             "disableOnInteraction": false
           }} pagination={{
             "clickable": true
           }} 
-
+          
           breakpoints={{
             640: {
               "slidesPerView": 1,
@@ -171,7 +172,6 @@ const Home = (props) => {
 
           className="mySwiper">
 
-
             {
               cms?.home_page?.testimonial ? cms?.home_page?.testimonial?.map(testimonial => (
                 <SwiperSlide>
@@ -181,8 +181,6 @@ const Home = (props) => {
               )) : null
             }
           </Swiper>
-
-
 
           {/* <Carousel
           itemPadding={[10, 10]}
@@ -198,8 +196,6 @@ const Home = (props) => {
               )):null
             }
 
-
-           
           </Carousel> */}
         </Row>
       </center>
@@ -228,8 +224,6 @@ const Home = (props) => {
               </div>
               </a>
                   </>
-                
-
                 ))
               }
             </Carousel>
@@ -281,6 +275,7 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
+
             {/* {details.error && (
               <Alert className="m-0" color="danger">
                 {details.error}
@@ -343,6 +338,7 @@ const Home = (props) => {
                 </div>
               </div>
             </div> */}
+
           </Col>
           <Col xs={11} md={6} className="add_overflow">
             <div className="custom_contactus">

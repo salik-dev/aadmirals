@@ -1,6 +1,5 @@
-
-
 @media only screen and (min-width: 1000px) {
+
   //   // FOR DESKTOP AND TABLET
   .mainDiv {
     background-position: bottom;
@@ -8,13 +7,14 @@
     min-height: 82vh;
 
     background-size: cover;
-    
+
     position: absolute;
-    
+
     width: 100vw;
     overflow: hidden;
     z-index: -1;
   }
+
   .mainContainer {
     min-height: 82vh;
     position: relative;
@@ -30,13 +30,15 @@
     top: 50%;
     width: 50%;
     transform: translateY(-50%);
+
     .moto {
       line-height: 200% !important;
       font-size: 19px !important;
       font-family: ProximaNovaRegular !important;
-    color: white !important;
-
+      color: white !important;
+      text-align: justify;
     }
+
     p {
       line-height: 200%;
       color: #ee405e;
@@ -44,35 +46,39 @@
       font-family: ProximaNovaBold;
       //   font-weight: bold;
     }
+
     h1:nth-child(2) {
       line-height: 90%;
       font-size: 38px;
       font-family: ProximaNovaBold;
     }
+
     h1:nth-child(3) {
       line-height: 90%;
       font-size: 48px;
       font-family: ProximaNovaThin;
     }
+
     .des {
       width: 70%;
       font-size: 16px;
       font-family: ProximaNovaRegular;
     }
-    
+
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 999px) {
+
   //   /* phones */
   .mainDiv {
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
     min-height: 82vh;
-  
+
     position: absolute;
-   
+
     width: 100vw;
     overflow: hidden;
     z-index: -1;
@@ -85,6 +91,7 @@
     z-index: 111;
     width: 100%;
   }
+
   .headingsContainer {
     color: white;
     width: 90%;
@@ -101,49 +108,56 @@
       //   font-weight: bold;
       text-align: center;
     }
+
     h1:nth-child(2) {
       line-height: 90%;
       font-size: 2.3rem;
       font-family: ProximaNovaBold;
       text-align: center;
     }
+
     h1:nth-child(3) {
       line-height: 90%;
       font-size: 2.3rem;
       font-family: ProximaNovaThin;
       text-align: center;
     }
+
     .des {
       width: 100%;
       font-size: 16px;
       text-align: center;
       font-family: ProximaNovaRegular;
     }
+
     .moto {
       line-height: 150% !important;
       font-size: 1rem !important;
       font-family: ProximaNovaRegular !important;
-    color: white !important;
+      color: white !important;
+      margin: auto;
 
     }
-   
+
   }
 }
 
 @media only screen and (max-width: 767px) {
+
   //   /* phones */
   .mainDiv {
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
     min-height: 82vh;
- 
+
     position: absolute;
-    
+
     width: 100vw;
     overflow: hidden;
     z-index: -1;
   }
+
   .mainContainer {
     text-align: center;
     padding-bottom: 40px;
@@ -151,6 +165,7 @@
     z-index: 111;
     width: 100%;
   }
+
   .headingsContainer {
     color: white;
     // left: 0%;
@@ -163,39 +178,100 @@
     margin-top: 1rem;
     z-index: 11;
     display: inline-block;
+
     // transform: translateY(-50%);
     p {
       line-height: 200%;
       color: #ee405e;
       font-size: 1rem;
       font-family: ProximaNovaBold;
-      //   font-weight: bold;
       text-align: center;
     }
+
     h1:nth-child(2) {
       line-height: 90%;
       font-size: 2.3rem;
       font-family: ProximaNovaBold;
       text-align: center;
     }
+
     h1:nth-child(3) {
       line-height: 90%;
       font-size: 2.3rem;
       font-family: ProximaNovaThin;
       text-align: center;
     }
+
     .des {
       width: 100%;
       font-size: 16px;
       text-align: center;
       font-family: ProximaNovaRegular;
     }
+
     .moto {
       line-height: 150% !important;
       font-size: 1rem !important;
       font-family: ProximaNovaRegular !important;
-    color: white !important;
-
+      color: white !important;
+      margin: auto;
+      
     }
   }
 }
+
+//Hero h1, p start
+
+@media screen and (max-width: 1124px) {
+  .home_h1 {
+    font-size: 36px !important;
+  }
+}
+@media screen and (max-width: 1088px) {
+  .home_h1 {
+    font-size: 34px !important;
+  }
+  .moto{
+    width: 91% !important;
+  }
+}
+@media screen  and (min-width: 1000px) and (max-width: 1055px) {
+  .home_h1 {
+    font-size: 32px !important;
+  } 
+  .moto{
+    width: 89% !important;
+  }
+}
+@media screen and (min-width: 1000px) and(max-width: 1022px) { 
+  .home_h1 {
+    font-size: 31px !important ;
+  }
+  .moto{
+    width: 86% !important;
+  }
+}
+@media screen and (min-width: 1000px) and(max-width: 1155px){
+  .moto{
+    max-width: 548px;
+    width: 94%;
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 999px) and (max-width: 1190px){
+  .moto{
+    width: 94%;
+
+  }
+}
+@media screen and(max-width: 999px){
+  .headingsContainer{
+    background-color: black;
+    opacity: .7;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 12px;
+  }
+}
+//Hero home h1, p
+
