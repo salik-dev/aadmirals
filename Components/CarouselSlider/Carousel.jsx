@@ -4,8 +4,8 @@ import "./carousel.css";
 import ServicesCards from "../Our Services/ServicesCards/ServicesCards";
 
 const items = [1, 2, 3];
-
 function CarouselSlider({ Slides }) {
+
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 

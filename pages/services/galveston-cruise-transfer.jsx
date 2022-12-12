@@ -87,7 +87,6 @@ function GalvestonCruisesTransportation(props) {
                 {data.galvestonCruises}
               </h6>
             </Col>
-           
             <Col xl={6} xs={12} lg={6} className={styles.imageContainer}>
              <Image priority={true}
                       width="100"
@@ -98,7 +97,6 @@ function GalvestonCruisesTransportation(props) {
                       
                       quality={100}
                     />
-            
             </Col>
           </Row>
           <Row className={styles.logoContainer}>
@@ -108,8 +106,7 @@ function GalvestonCruisesTransportation(props) {
                       src="/Assets/Group 943.png"
                       alt="Regional Aviation Airport Transfer"
                       height={50}
-                   
-                      
+                  
                       objectFit="contain"
                       quality={100}
                     />

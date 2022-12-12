@@ -23,7 +23,6 @@ function ServicesCards({ image, description, title, url }) {
     } if (title == "Private Transfer for Families and Groups") {
       setLinkData("/city-to-city-transfe")
     }
-
   }, [])
   return (
     <div className="main_slider_serv">

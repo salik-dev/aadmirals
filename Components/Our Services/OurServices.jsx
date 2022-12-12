@@ -2,6 +2,7 @@ import React from "react";
 import dynamic from 'next/dynamic'
 import { Container, Row, Col } from "reactstrap";
 import styles from "./OurServices.module.scss";
+
 const ServicesCards = dynamic(()=> import('./ServicesCards/ServicesCards'))
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -29,20 +30,20 @@ function OurServices({ services }) {
   return (
     <>
       <Container fluid className={styles.mainContainer}>
-
         <center>
           <Row>
             <Col xs={12} md={12} xl={12}>
               <h2>Our Services</h2>
             </Col>
 
-            <Swiper slidesPerView={1} spaceBetween={30} autoplay={{
-              "delay": 2500,
-              "disableOnInteraction": false
-            }} pagination={{
+            <Swiper slidesPerView={1} spaceBetween={30} 
+            // autoplay={{
+            //   "delay": 2500,
+            //   "disableOnInteraction": false
+            // }} 
+            pagination={{
               "clickable": true
-            }}  
-            
+            }} 
             breakpoints={{
               640: {
                 "slidesPerView": 1,

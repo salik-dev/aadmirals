@@ -13,7 +13,7 @@ const Hero = ({ Text, Form, MotoHidden, img, Title }) => {
           placeholder={"blur"}
           alt={Title}
           src={img}
-          layout="fill"
+          layout="fill" 
           objectFit="cover"
           quality={100}
 
