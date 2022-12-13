@@ -1,3 +1,11 @@
+@media only screen and (min-width: 768px) and (max-width: 1500px){
+  .images{
+    margin: 1px 5px !important;
+    // height: 180px !important;
+    width: 23vw !important;
+    box-shadow: 0px 0px 3px 1px black;
+  }
+}
 @media only screen and (min-width: 768px) {
   // FOR DESKTOP AND TABLET
   .mainContainer {
@@ -37,7 +45,10 @@
   .images {
     display: inline-block;
     position: relative;
-    margin: 1rem;
+    border-radius: 10px;
+    margin: 1px 5px;
+    height: 61vh;
+    width: 23vw;
     overflow: hidden;
     transition: .3s linear;
     height: 13rem;
@@ -73,9 +84,14 @@
     }
   }
 }
+@media  only screen and (min-width: 468px) and (max-width: 874px) {
+  .images{
+    width: 30vw !important;
+  }
+  
+}
 @media only screen and (max-width: 767px) {
   /* phones */
-
   .mainContainer {
     background-color: #ffffff;
     padding-top: 70px;
@@ -150,8 +166,50 @@
   }
 }
 
-// cities transparent start
+// cities image re-design
 
+@media only screen and (max-width: 510px){
+  .imagesContainer{
+    height: 55.5rem;
+    overflow: scroll;
+  }
+  .imagesContainer::-webkit-scrollbar-thumb {
+    background: #8080808c;
+} 
+.imagesContainer::-webkit-scrollbar {
+  max-width: 3px !important;
+}
 
+  .images{
+    height: 17rem;
+    width: 27rem;
+    border-radius: 13px;
+      box-shadow: 0px 0px 3px 1px black;
+    margin: 0px;
+    margin-bottom: 3px !important;
+  }
+}
 
-//end cities transparent
+@media only screen and(max-width: 468px){
+  .images{
+    max-height: 30vh;
+    height: 30vh;
+    width: 88vw;
+  }
+  .imagesContainer{
+    height: 43.5rem;
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 766px){
+  .images{
+    border-radius: 14px !important;
+    width: 38vw !important;
+    margin: 3px !important;
+  }
+}
+@media only screen and (max-width: 576px){
+  
+}
+
+// end cities image re-design
