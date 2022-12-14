@@ -24,7 +24,7 @@ function Cities({ cities }) {
                   <div className={styles.images}>
                      <Image priority={true} src={city.image} alt={city.name} objectFit='cover' layout="fill"   />
                     <div className={styles.overly}>
-                      <h4>{city.name}</h4>
+                      <h4 className={styles.cities_name}>{city.name}</h4>
                     </div>
                   </div>
                 </a>
