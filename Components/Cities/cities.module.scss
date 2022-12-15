@@ -53,9 +53,8 @@
     height: 13rem;
       width: 13rem;
     h4 {
-      font-family: ProximaNovaRegular;
+      font: 24px ProximaNovaBold;
       color: white;
-      font-size: 24px;
       background: rgba(0, 0, 0, 0.6);
       position: absolute;
       top: 0;
@@ -194,7 +193,7 @@
     height: 17rem !important;
     width: 27rem !important;
     border-radius: 13px !important;
-      box-shadow: 0px 0px 3px 1px black !important;
+    box-shadow: 0px 0px 3px 1px black !important;
     margin: 0px;
     margin-bottom: 3px !important;
   }

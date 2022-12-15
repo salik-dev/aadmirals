@@ -4,7 +4,6 @@ import { Container } from "reactstrap";
 import Link from 'next/link'
 import Image from 'next/image'
 
-
 function Cities({ cities }) {
   return (
     <Container fluid className={`${styles.mainContainer} add_bottom_mrgin`}>
@@ -34,6 +33,7 @@ function Cities({ cities }) {
       </div>
     </Container>
   );
+
 }
 
 export default Cities;
