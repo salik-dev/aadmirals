@@ -60,23 +60,24 @@
       line-height: 200%;
       color: #ee405e;
       font-size: 15px;
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+
    
     }
     h1:nth-child(2) {
       line-height: 90%;
       font-size: 73px;
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     }
     h1:nth-child(3) {
       line-height: 90%;
       font-size: 73px;
-      font-family: ProximaNovaThin;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     }
     h5 {
       line-height: 200%;
       font-size: 19px;
-      font-family: ProximaNovaRegular;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     }
   }
   .menuButton {
@@ -169,23 +170,24 @@
       line-height: 200%;
       color: #ee405e;
       font-size: 15px;
-      font-family: ProximaNovaBold;
-      //   font-weight: bold;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     }
     h1:nth-child(2) {
       line-height: 90%;
       font-size: 73px;
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+
     }
     h1:nth-child(3) {
       line-height: 90%;
       font-size: 73px;
-      font-family: ProximaNovaThin;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     }
     h5 {
       line-height: 200%;
       font-size: 19px;
-      font-family: ProximaNovaRegular;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+
     }
   }
   .menuButton {
@@ -283,10 +285,7 @@
     }
 
     .cardPayment {
-      // border-radius: 0.5rem !important;
-      // height: auto !important;
-      // width: 50%;
-      // margin: auto;
+
       border: none;
 
       .headingMain {
@@ -336,10 +335,6 @@
     overflow: hidden;
   }
   .cardPayment {
-// border-radius: 0.5rem !important;
-      // height: auto !important;
-      // width: 50%;
-      // margin: auto;
       border: none;
       background: transparent !important;
 
@@ -432,14 +427,14 @@
     text-align: center;
   }
   .heading_Limo {
-    font-family: ProximaNovaBold;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     color: black;
     font-size: 42px;
   }
   .paragraph_Limo {
     padding-top: 20px;
     display: inline-block;
-    font-family: ProximaNovaLight;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     width: 92%;
     font-size: 17px;
   }
@@ -448,9 +443,7 @@
     width: 90%;
     padding-top: 10px;
   }
-  // .features:nth-child(6) {
-  //   position: relative;
-  // }
+
   .features2 {
     margin: 5px 10px;
     vertical-align: top;
@@ -468,16 +461,14 @@
     width: 30%;
     p {
       padding-top: 10px;
-      font-family: ProximaNovaLight;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
       font-size: 15px;
       width: 90%;
       letter-spacing: 0px;
     }
   }
   .propertiesBox_Limo {
-    // padding-top: 50px;
     display: flex;
-    // justify-content: space-evenly;
     vertical-align: top;
     justify-content: center;
   }
@@ -488,12 +479,12 @@
     box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
     transition: .3s linear;
       h3 {
-      font-family: ProximaNovaBold;
-      font-size: 20px;
+        font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+        font-size: 20px;
       padding-top: 10px;
     }
     p {
-      font-family: ProximaNovaLight;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
       font-size: 16px;
       margin-bottom: 0;
     }
@@ -515,14 +506,14 @@
     text-align: center;
   }
   .heading_Limo {
-    font-family: ProximaNovaBold;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     color: black;
     font-size: 42px;
   }
   .paragraph_Limo {
     padding-top: 20px;
     display: inline-block;
-    font-family: ProximaNovaLight;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     width: 92%;
     font-size: 17px;
   }
@@ -539,16 +530,13 @@
     display: inline-block;
   }
   .features {
-    // display: inline-block;
     margin: 5px 10px;
     color: #727070;
-    // text-align: center;
-    // display: block;
     width: 100%;
     overflow: hidden;
     p {
       padding-top: 10px;
-      font-family: ProximaNovaLight;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
       font-size: 15px;
       width: 90%;
       letter-spacing: 0px;
@@ -563,12 +551,12 @@
     width: 330px;
     display: inline-block;
     h3 {
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
       font-size: 28px;
       padding-top: 10px;
     }
     p {
-      font-family: ProximaNovaLight;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
       font-size: 14px;
     }
   }
@@ -584,7 +572,7 @@
     h2 {
       padding: 60px 0;
       font-size: 32px;
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     }
   }
 }
@@ -598,7 +586,7 @@
     h2 {
       padding: 60px 0;
       font-size: 32px;
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     }
   }
 }
@@ -645,7 +633,7 @@
     h2 {
       padding-top: 60px;
       font-size: 32px;
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     }
   }
 

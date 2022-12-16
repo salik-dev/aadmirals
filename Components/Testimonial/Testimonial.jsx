@@ -3,17 +3,12 @@ import { Row, Col } from "reactstrap";
 import TestimonialCards from "./Testimonial Cards/TestimonialCards";
 import styles from "./Testimonial.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination"
 
-// import Swiper core and required modules
 import SwiperCore, {
   Pagination, Autoplay
 } from 'swiper';
-
-// install Swiper modules
 SwiperCore.use([Pagination, Autoplay]);
 
 function Testinmonial({ testimonials }) {
@@ -23,6 +18,7 @@ function Testinmonial({ testimonials }) {
     { width: 768, itemsToShow: 1 },
     { width: 1200, itemsToShow: 3 },
   ];
+
   return (
     <div className={styles.mainContainer_Testimonial}>
       <center>
@@ -65,9 +61,6 @@ function Testinmonial({ testimonials }) {
               )) : null
             }
           </Swiper>
-
-
-
           {/* <Carousel
           itemPadding={[10, 10]}
             autoPlaySpeed={4000}
@@ -82,8 +75,6 @@ function Testinmonial({ testimonials }) {
               )):null
             }
 
-
-           
           </Carousel> */}
         </Row>
       </center>

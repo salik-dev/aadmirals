@@ -10,14 +10,15 @@
     text-align: center;
   }
   .heading_Limo {
-    font-family: ProximaNovaBold;
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
+
     color: black;
     font-size: 42px;
   }
   .paragraph_Limo {
     padding-top: 20px;
     display: inline-block;
-    font-family: ProximaNovaLight;
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
     width: 92%;
     font-size: 17px;
   }
@@ -26,9 +27,6 @@
     width: 90%;
     padding-top: 10px;
   }
-  // .features:nth-child(6) {
-  //   position: relative;
-  // }
   .features2 {
     margin: 5px 10px;
     vertical-align: top;
@@ -46,16 +44,14 @@
     width: 30%;
     p {
       padding-top: 10px;
-      font-family: ProximaNovaLight;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       font-size: 15px;
       width: 90%;
       letter-spacing: 0px;
     }
   }
   .propertiesBox_Limo {
-    // padding-top: 50px;
     display: flex;
-    // justify-content: space-evenly;
     vertical-align: top;
     justify-content: center;
   }
@@ -66,12 +62,12 @@
     box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
     transition: .3s linear;
       h3 {
-      font-family: ProximaNovaBold;
-      font-size: 20px;
+        font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
+        font-size: 20px;
       padding-top: 10px;
     }
     p {
-      font-family: ProximaNovaLight;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       font-size: 16px;
       margin-bottom: 0;
     }
@@ -82,8 +78,6 @@
   }
 }
 @media only screen and (max-width: 767px) {
-  /* phones */
-
   .mainContainer_Limo {
     background-color: #ffffff;
     padding-top: 100px;
@@ -93,14 +87,14 @@
     text-align: center;
   }
   .heading_Limo {
-    font-family: ProximaNovaBold;
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
     color: black;
     font-size: 42px;
   }
   .paragraph_Limo {
     padding-top: 20px;
     display: inline-block;
-    font-family: ProximaNovaLight;
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
     width: 92%;
     font-size: 17px;
   }
@@ -117,16 +111,13 @@
     display: inline-block;
   }
   .features {
-    // display: inline-block;
     margin: 5px 10px;
-    color: #727070;
-    // text-align: center;
-    // display: block;
+    color: #727070; 
     width: 100%;
     overflow: hidden;
     p {
       padding-top: 10px;
-      font-family: ProximaNovaLight;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       font-size: 15px;
       width: 90%;
       letter-spacing: 0px;
@@ -141,12 +132,12 @@
     width: 330px;
     display: inline-block;
     h3 {
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       font-size: 28px;
       padding-top: 10px;
     }
     p {
-      font-family: ProximaNovaLight;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       font-size: 14px;
     }
   }

@@ -11,7 +11,7 @@ const News = () => {
   const {news} = useSelector((state) => state.news);
   return (
     <Row className={styles.main_container} noGutters>
-      
+
       <Col lg={1} md={1}>
         <div className={styles.news}>
           <p>Note</p>
@@ -26,14 +26,12 @@ const News = () => {
           bgcolor="white"
         >
                 <p className="m-0">
-
           {news
             ? news.map((item) => (
                   `${item.news}     ~|A|~     `
               ))
             : null}
                 </p>
-
         </marquee>
       </Col>
     </Row>

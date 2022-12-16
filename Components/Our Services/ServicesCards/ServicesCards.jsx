@@ -35,7 +35,7 @@ function ServicesCards({ image, description, title, url }) {
                   layout="responsive" objectFit="cover" />
               </div>
               <div className={styles.cardDetail}>
-                <h3>{title}</h3>
+                <h3 className={styles.cardTitle}>{title}</h3>
                 <ReadMoreReact min={40}
                   ideal={50}
                   max={100}

@@ -65,7 +65,7 @@ const Header = () => {
                 </h4>
               </section>
             </NavbarBrand>
-            <NavbarToggler onClick={toggle} />
+            <NavbarToggler  onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
               <Nav className="ml-auto headeR_nav_main_header" navbar>
                 <NavItem className={styles.NavItem}>
@@ -243,9 +243,6 @@ const Header = () => {
 
                   </ControlledMenu>
                 </ButtonDropdown>
-
-
-
                 <ButtonDropdown
                   isOpen={dropDownOpen1}
                   className={styles.dropdown}
@@ -324,7 +321,6 @@ const Header = () => {
                     Fleet
                   </NavLink>
                 </NavItem>
-
                 <NavItem className={styles.NavItem}>
                   <NavLink
                     className={styles.NavLink}

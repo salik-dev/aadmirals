@@ -49,13 +49,13 @@
     h1:nth-child(2) {
       line-height: 90%;
       font-size: 38px;
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
     }
 
     h1:nth-child(3) {
       line-height: 90%;
       font-size: 48px;
-      font-family: ProximaNovaThin;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
     }
 
     .des {
@@ -111,14 +111,14 @@
     h1:nth-child(2) {
       line-height: 90%;
       font-size: 2.3rem;
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       text-align: center;
     }
 
     h1:nth-child(3) {
       line-height: 90%;
       font-size: 2.3rem;
-      font-family: ProximaNovaThin;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       text-align: center;
     }
 
@@ -185,14 +185,14 @@
     h1:nth-child(2) {
       line-height: 90%;
       font-size: 2.3rem;
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       text-align: center;
     }
 
     h1:nth-child(3) {
       line-height: 90%;
       font-size: 2.3rem;
-      font-family: ProximaNovaThin;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       text-align: center;
     }
 
@@ -219,11 +219,13 @@
 @media screen and (max-width: 1124px) {
   .home_h1 {
     font-size: 36px !important;
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
   }
 }
 @media screen and (max-width: 1088px) {
   .home_h1 {
     font-size: 34px !important;
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
   }
   .moto{
     width: 91% !important;
@@ -232,6 +234,7 @@
 @media screen  and (min-width: 1000px) and (max-width: 1055px) {
   .home_h1 {
     font-size: 32px !important;
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
   } 
   .moto{
     width: 89% !important;
@@ -240,6 +243,7 @@
 @media screen and (min-width: 1000px) and(max-width: 1022px) { 
   .home_h1 {
     font-size: 31px !important ;
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
   }
   .moto{
     width: 86% !important;

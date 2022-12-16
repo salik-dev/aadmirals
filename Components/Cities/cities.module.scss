@@ -13,7 +13,7 @@
   }
   .heading {
     text-align: center;
-    font-family: ProximaNovaBold;
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
     color: black;
     font-size: 42px;
   }
@@ -53,7 +53,7 @@
     height: 13rem;
       width: 13rem;
     h4 {
-      font: 24px ProximaNovaBold;
+      font: 24px AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       color: white;
       background: rgba(0, 0, 0, 0.6);
       position: absolute;
@@ -76,13 +76,14 @@
      h4 {
       transform: scale(1);
       opacity: 1;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
     }
     &:hover {
       transform: scale(1.1)
     }
   }
   .cities_name{
-    font-family: 'ProximaNovaBold';
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
   }
 }
 @media  only screen and (min-width: 468px) and (max-width: 874px) {
@@ -98,7 +99,7 @@
   }
   .heading {
     text-align: center;
-    font-family: ProximaNovaBold;
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
     color: black;
     font-size: 42px;
   }
@@ -135,7 +136,7 @@
     height: 13rem;
       width: 13rem;
     h4 {
-      font-family: ProximaNovaRegular;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       color: white;
       font-size: 24px;
       background: rgba(0, 0, 0, 0.6);
@@ -159,6 +160,7 @@
     h4 {
       transform: scale(1);
       opacity: 1;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
     }
     &:hover {
       transform: scale(1.1)

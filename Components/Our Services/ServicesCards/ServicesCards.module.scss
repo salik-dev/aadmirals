@@ -38,15 +38,18 @@
     max-height: 182px;
     overflow-y: auto;
     h3 {
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       font-size: 20px;
     }
 
     h6 {
       color: #636363;
-      font-family: ProximaNovaThin;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       font-size: 16px;
     }
+  }
+  .cardTitle{
+    font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
   }
 }
 
@@ -78,13 +81,13 @@
     padding: 25px 20px;
 
     h3 {
-      font-family: ProximaNovaBold;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       font-size: 25px;
     }
 
     h6 {
       color: #636363;
-      font-family: ProximaNovaThin;
+      font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
       font-size: 14px;
     } 
   }
