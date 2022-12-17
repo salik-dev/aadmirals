@@ -5,11 +5,8 @@
     background-position: bottom;
     background-repeat: no-repeat;
     min-height: 82vh;
-
     background-size: cover;
-
     position: absolute;
-
     width: 100vw;
     overflow: hidden;
     z-index: -1;
@@ -35,7 +32,7 @@
       font-size: 19px !important;
       font-family: ProximaNovaRegular !important;
       color: white !important;
-      text-align: justify;
+
     }
 
     p {
@@ -135,7 +132,6 @@
       font-family: ProximaNovaRegular !important;
       color: white !important;
       margin: auto;
-
     }
 
   }
@@ -209,7 +205,6 @@
       font-family: ProximaNovaRegular !important;
       color: white !important;
       margin: auto;
-      
     }
   }
 }
@@ -221,45 +216,30 @@
     font-size: 36px !important;
     font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
   }
+
 }
 @media screen and (max-width: 1088px) {
   .home_h1 {
     font-size: 34px !important;
     font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
   }
-  .moto{
-    width: 91% !important;
-  }
+
 }
 @media screen  and (min-width: 1000px) and (max-width: 1055px) {
   .home_h1 {
     font-size: 32px !important;
     font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
   } 
-  .moto{
-    width: 89% !important;
-  }
 }
 @media screen and (min-width: 1000px) and(max-width: 1022px) { 
   .home_h1 {
     font-size: 31px !important ;
     font-family: AvenirNext,Helvetica,Arial,Open Sans,sans-serif;
   }
-  .moto{
-    width: 86% !important;
-  }
 }
 @media screen and (min-width: 1000px) and(max-width: 1155px){
   .moto{
-    max-width: 548px;
-    width: 94%;
-    text-align: justify;
-  }
-}
-@media screen and (min-width: 999px) and (max-width: 1190px){
-  .moto{
-    width: 94%;
-
+    width: 41.6vw !important;
   }
 }
 @media screen and(max-width: 999px){

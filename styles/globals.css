@@ -68,6 +68,13 @@ center h2 {
 .home_mainContainer {
   z-index: -1 !important;
 }
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background: #808080ba;
+  border-radius: 0px;
+}
 .szh-menu li.szh-menu__item , .szh-menu li.szh-menu__submenu {
   display: block;
   width: 100%;
@@ -216,7 +223,7 @@ span.displayed-text .read-more-button {
   font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
 }
 .custom_main_images {
-  width: 90%;
+  width: 100%;
 }
 .add_bottom_mrgin {
   padding-bottom: 2rem;

@@ -15,30 +15,42 @@ function LimousineService({ data }) {
         </p> */}
       </div>
       <div style={{ textAlign: "center", paddingTop: "50px" }}>
-        <div className={styles.featuresBox_Limo}>
+        <div className={styles.featuresBox_Limo} style={{width: "100%"}}>
          
           <div className={styles.propertiesBox_Limo}>
           <div className="custom_main_images">
           <Row>
             <Col>
-          <div className={styles.properties_Limo}>
+          <div className={styles.properties_Limo} style={{
+    boxShadow: "0px 0 5px #21252985",
+    borderRadius: "10px",
+    marginBottom:"18px"
+}}>
              <Image priority={true} src="/Assets/surface1.svg"   width="70" height="50" alt="AAdmirals Saftey" />
             <h3>Safety, Time and Satisfaction are our priorities.</h3>
-            <p>{data.paragraphOne}</p>
+            <p style={{  fontFamily: "AvenirNext, Helvetica, Arial, Open Sans, sans-serif", padding: "12px 12px"}}>{data.paragraphOne}</p>
           </div>
           </Col>
           <Col>
-          <div className={styles.properties_Limo}>
+          <div className={styles.properties_Limo} style={{
+    boxShadow: "0px 0 5px #21252985",
+    borderRadius: "10px",
+    marginBottom:"18px"
+}}>
              <Image priority={true} width="70" height="50"   src="/Assets/13-car.svg" alt="Private Travel" />
             <h3>Private travel solutions meets all requirements and budgets</h3>
-            <p>{data.paragraphTwo}</p>
+            <p style={{  fontFamily: "AvenirNext, Helvetica, Arial, Open Sans, sans-serif",padding:"12px 12px"}}>{data.paragraphTwo}</p>
           </div>
           </Col>
           <Col>
-          <div className={styles.properties_Limo}>
+          <div className={styles.properties_Limo} style={{
+    boxShadow: "0px 0 5px #21252985",
+    borderRadius: "10px",
+    marginBottom:"18px" 
+}}>
              <Image priority={true} width="70" height="50"   src="/Assets/give-money.svg" alt="All prives" />
             <h3>All Inclusive Pricing</h3>
-            {data.paragraphThree}
+          <p  style={{  fontFamily: "AvenirNext, Helvetica, Arial, Open Sans, sans-serif", padding:"12px 12px"}}>  {data.paragraphThree}</p>
           </div>
           </Col>
           </Row>
@@ -46,13 +58,15 @@ function LimousineService({ data }) {
         </div>
         </div>
         <div
-          style={{ paddingTop: "100px" }}
+          style={{ paddingTop: "100px",paddingTop: "58px",
+          height: "104vh !important",
+          overflow: "scroll"}}
           className={styles.discriptionContainer_Limo}
         >
           <h2 className={styles.heading_Limo}>
             Unique Limousine Experience in Houston
           </h2>
-          <p style={{ textAlign: "left" }} className={styles.paragraph_Limo}>
+          <p style={{ textAlign: "justify" }} className={styles.paragraph_Limo}>
             {data.uniqueLimousineExperienceInHouston}
           </p>
         </div>
@@ -68,7 +82,7 @@ function LimousineService({ data }) {
             ></iframe>
           </div>
       </div>
-    </Container>
+    </Container >
   );
 }
 
