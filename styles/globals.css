@@ -270,14 +270,22 @@ span.displayed-text .read-more-button {
   font-size: 18px !important;
   margin-right: 10px;
 }
+
+.info-box{
+  box-shadow: 0px 0px 4px 3px #80808026;
+}
+.terminate_newline{
+  display: inline-flex;
+}
 .add_overflow {
-  overflow: hidden;
+  padding-bottom: 101px;
 }
 .custom_contactus {
   background: #fafbff;
   padding: 30px 30px 0px;
   height: 100%;
   margin-top: 2rem;
+  box-shadow: 0px 0px 4px 3px #80808026;
 }
 .custom_contactus .card {
   background: transparent;
@@ -333,27 +341,10 @@ span.displayed-text .read-more-button {
   text-align: center;
   margin-bottom: 0;
 }
-/* .rec-carousel-item-next .testomial_main {
-  transform: scale(1.2);
-  filter: none ;
-} */
-/* .rec-carousel-item-next .testimonial {
-  padding: 20px 50px;
-  border: none;
-} */
-/* .rec-carousel-item-next h6 {
-  font-size: 12px;
-}
-.testomial_main {
-  filter: blur(1px);
-  transform: scale(.8);
-}
-.rec-carousel-item-next .rec-item-wrapper {
-  height: 300px;
-} */
+
 .navbar-expand-md .navbar-nav .nav-link {
   font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
-}
+} 
 @media only screen and (min-width: 1000px) {
   .custom_class_nav .tab-content {
     padding: 0 18px 18px ;
@@ -420,9 +411,6 @@ span.displayed-text .read-more-button {
   .main_video_iframe {
     height: 220px;
   }
-  .main_section_bg .row {
-    margin: 0;
-  }
   .info_boxes_main {
     padding: 0;
   }
@@ -440,4 +428,10 @@ span.displayed-text .read-more-button {
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   background: #ee405e !important;
+}
+@media only screen and (max-width: 576px){
+  .contact_div{
+    margin-left: 37px;
+    margin-right: 37px;
+  }
 }

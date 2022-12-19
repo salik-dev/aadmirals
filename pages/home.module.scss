@@ -1,5 +1,4 @@
 @media only screen and (min-width: 768px) {
-
   .mainContainer {
     min-height: 82vh;
     position: relative;
@@ -104,12 +103,13 @@
   }
   
 }
-
 @media only screen and (max-width: 767px) {
-
+  .properties_Limo{
+    width: 94vw !important;
+    padding-top: 2vh !important;
+  }
   .mainContainer {
 
-   
     position: relative;
     max-width: 100vw !important;
     padding: 0;
@@ -133,7 +133,6 @@
     z-index: 1000;
   }
   .floatingButton {
-    
     transition: 0.2s ease-in-out;
     outline: 0;
     border: none;
@@ -196,7 +195,6 @@
     background-color: white;
     position: relative;
     z-index: 11;
-
     text-align: center;
     .togButton {
       margin-top: 10px;
@@ -216,9 +214,6 @@
     margin-top: 6rem;
   }
 }
-
-
-
 // Footer
 .message_icon{
   width: 1.5rem;
@@ -228,7 +223,6 @@
   
   .main_container_footer {
     max-width: 90% !important;
-    // margin: 0 auto !important;
     .background {
       background-color: #f0f2f7;
     }
@@ -244,7 +238,6 @@
         text-align: left !important;
         padding-left: 2rem;
         padding-top: 2rem;
-
         & h2 {
           color: white;
           font-size: 2rem;
@@ -272,7 +265,6 @@
           .phone {
             width: 1.5rem;
           }
-
           & img {
             margin-bottom: 0.5rem;
           }
@@ -283,11 +275,8 @@
       background-color: #f0f2f7;
       padding: 0 !important;
     }
-
     .cardPayment {
-
       border: none;
-
       .headingMain {
         color: #707070;
         font-size: 1.5rem;
@@ -295,7 +284,6 @@
         margin: auto;
       }
     }
-
     .buttonPayment {
       width: 100%;
       height: 3rem;
@@ -315,7 +303,6 @@
       font-size: 0.8rem;
       font-weight: bold;
       float: left;
-      //    margin-right: 900px;
     }
     .input {
       font-size: 0.8rem !important;
@@ -337,7 +324,6 @@
   .cardPayment {
       border: none;
       background: transparent !important;
-
     .headingMain {
       color: #707070;
       font-size: 1.7rem;
@@ -351,7 +337,6 @@
     margin: 0px auto !important;
     width: 900px !important;
   }
-
   .buttonPayment {
     width: 100%;
     height: 3rem;
@@ -369,9 +354,7 @@
     font-size: 0.7rem !important;
     font-weight: bold !important;
     float: left !important;
-    //    margin-right: 900px;
   }
-
   .input {
     font-size: 0.8rem !important;
   }
@@ -387,7 +370,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 49rem;
-
     text-align: center;
     color: white;
     .upLogo {
@@ -422,7 +404,6 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
-  
   .discriptionContainer_Limo {
     text-align: center;
   }
@@ -443,7 +424,6 @@
     width: 90%;
     padding-top: 10px;
   }
-
   .features2 {
     margin: 5px 10px;
     vertical-align: top;
@@ -522,7 +502,7 @@
     padding-top: 10px;
     text-align: center;
   }
-  
+
   .features2 {
     vertical-align: top;
     color: #727070;
@@ -542,10 +522,12 @@
       letter-spacing: 0px;
     }
   }
-  
   .propertiesBox_Limo {
     padding-top: 50px;
     justify-content: center;
+  }
+  .service_detail{
+    font-size:16px !important;
   }
   .properties_Limo {
     width: 330px;
@@ -568,7 +550,6 @@
   .mainContainer_Partner {
     height: 100%;
     width: 100%;
-    // margin-top: 50px;
     h2 {
       padding: 60px 0;
       font-size: 32px;
@@ -586,16 +567,17 @@
 }
 @media only screen and (max-width: 767px) {
   /* phones */
-
   .mainContainer_Partner {
     height: 100%;
     width: 100%;
-    // margin-top: 50px;
     h2 {
       padding: 60px 0;
       font-size: 32px;
       font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
     }
+  }
+  .featuresBox_Limo{
+    margin-top: -73px;
   }
 }
 
@@ -617,7 +599,6 @@
 }
 @media only screen and (max-width: 767px) {
   /* phones */
-
   .logos_container{
     margin: 0rem 1rem 1rem 0rem;
     display: flex;
@@ -637,7 +618,6 @@
     background: #f0f2f7;
     max-width: 100vw;
     overflow: hidden;
-    // margin-top: 50px;
     h2 {
       padding-top: 60px;
       font-size: 32px;
