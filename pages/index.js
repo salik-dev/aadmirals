@@ -474,71 +474,70 @@ const Home = (props) => {
                               </li>
                             </ul>
                           </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                          <div className="header_name">
-                            <h3>Useful Links</h3>
+                        </div>              
+                          <div className="useful_contact col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div className="header_name">
+                              <h3>Useful Links</h3>
+                            </div>
+                            <div className="links_footer">
+                              <ul>
+                                <li>
+                                  <Link href="/">
+                                    <a>Home</a>
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link href="/login">
+                                    <a>Login</a>
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link href="/FAQ">
+                                    <a>FAQs</a>
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link href="/about-us">
+                                    <a>About</a>
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link href="/fleet">
+                                    <a>fleet</a>
+                                  </Link>
+                                </li>
+                              </ul>
+                            </div>
                           </div>
-                          <div className="links_footer">
-                            <ul>
-                              <li>
-                                <Link href="/">
-                                  <a>Home</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="/login">
-                                  <a>Login</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="/FAQ">
-                                  <a>FAQs</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="/about-us">
-                                  <a>About</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="/fleet">
-                                  <a>fleet</a>
-                                </Link>
-                              </li>
-                            </ul>
+                          <div className="useful_contact2 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div className="header_name">
+                              <h3>Contact Us</h3>
+                            </div>
+                            <div className="links_footer">
+                              <ul>
+                                <li>
+                                  <Link href="">
+                                    <a><i className="fa fa-map-marker" aria-hidden="true"></i> 8222 Kingsbrook Rd , Houston, TX 77024</a>
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link href="">
+                                    <a><i className="fa fa-map-marker" aria-hidden="true"></i> 17103 Imperial Valley Dr, Houston, TX 77060</a>
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link href="mailto:info@aadmirals.com">
+                                    <a><i className="fa fa-envelope" aria-hidden="true"></i> info@aadmirals.com</a>
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link href="/">
+                                    <a><i className="fa fa-globe" aria-hidden="true"></i> aadmirals.com</a>
+                                  </Link>
+                                </li>
+                              </ul>
+                            </div>
                           </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                          <div className="header_name">
-                            <h3>Contact Us</h3>
-                          </div>
-                          <div className="links_footer">
-                            <ul>
-                              <li>
-                                <Link href="">
-                                  <a><i className="fa fa-map-marker" aria-hidden="true"></i> 8222 Kingsbrook Rd , Houston, TX 77024</a>
-                                </Link>
-
-                              </li>
-                              <li>
-                                <Link href="">
-                                  <a><i className="fa fa-map-marker" aria-hidden="true"></i> 17103 Imperial Valley Dr, Houston, TX 77060</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="mailto:info@aadmirals.com">
-                                  <a><i className="fa fa-envelope" aria-hidden="true"></i> info@aadmirals.com</a>
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="/">
-                                  <a><i className="fa fa-globe" aria-hidden="true"></i> aadmirals.com</a>
-                                </Link>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
                       </div>
                     </footer>
                   </div>

@@ -266,6 +266,7 @@ span.displayed-text .read-more-button {
   background: #fff !important;
   padding-top: 2rem;
 }
+
 .custom_size_icon {
   font-size: 18px !important;
   margin-right: 10px;
@@ -429,9 +430,54 @@ span.displayed-text .read-more-button {
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   background: #ee405e !important;
 }
-@media only screen and (max-width: 576px){
+@media only screen  and (max-width: 576px){
   .contact_div{
     margin-left: 37px;
     margin-right: 37px;
   }
+  .useful_contact ul{
+    flex: auto;
+    max-width: auto;
+  }
+  .useful_contact{
+    margin-left: 32px;
+    margin-top: 26px;
+  }
+  .useful_contact2{
+    margin-top: -182px;
+    margin-left: 225px;
+  }
+  .social_links{
+    margin-top: -60px;
+    margin-left: 215px;
+  }
+  }
+  @media only screen and (max-width: 426px){
+    .footer_logo{
+      margin-left: 25px;
+    }
+    .social_links{
+      margin-left: 186px;
+    }
+    .useful_contact{
+      margin-left: 32px;
+    }
+    .useful_contact2{
+      margin-left: 198px;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    .useful_contact2{
+      margin-left: 22vh;
+    }
+    .useful_contact {
+      margin-left: 3vh;
+  }
+  .social_links {
+    margin-left: 8vh;
+    margin-top: -11px;    
 }
+.footer_logo{
+  margin-left: 32%;
+}
+  }
