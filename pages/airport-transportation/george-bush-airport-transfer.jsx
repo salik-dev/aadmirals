@@ -8,7 +8,6 @@ function GeorgeBushAirportPage(props) {
   const router = useRouter()
 
   return (
-   
     <>
    
       <NextSeo

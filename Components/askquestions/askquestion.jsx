@@ -20,7 +20,7 @@ const Askquestion = ({ faqs }) => {
         {faqs &&
           faqs.map((fa, index) => (
             <Row>
-              <Col id={fa._id} md={6} sm={12}>
+              <Col id={fa._id} md={6} sm={12} className={styles.ques_ans_div}>
                 <h3 className={styles.question}>
                   {index + 1} : {fa.question}
                 </h3>

@@ -38,7 +38,6 @@ const Footer = () => {
 
     }
   };
-
   useEffect(() => {
     dispatch(getContactDetailsPage());
   }, []);
@@ -53,7 +52,7 @@ const Footer = () => {
           <Col xs={12} md={6} className="info_boxes_main contact ">
             <div className="main_infos">
               <div className="row">
-                <div className="col-md-6">
+                <div className="contact_div col-md-6">
                   <div className="info-box">
                     <i className="fa fa-phone"></i>
                     <h3>Call Us</h3>
@@ -63,21 +62,21 @@ const Footer = () => {
                     <a href={`skype:+1${det && det.skype}-?chat`}> <i className="fa fa-skype custom_size_icon"></i> +1{det && det.skype}</a><br />
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="contact_div col-md-6">
                   <div className="info-box">
                     <i className="fa fa-map-marker"></i>
                     <h3>Location</h3>
                     <p>8222 Kingsbrook Rd, <br /> Houston, TX 77024</p>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="contact_div col-md-6">
                   <div className="info-box">
                     <i className="fa fa-envelope-o"></i>
                     <h3>Email Us</h3>
                     <a href={`mailto:${det && det.email}`}>{det && det.email}</a>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="contact_div col-md-6">
                   <div className="info-box">
                     <i className="fa fa-clock-o"></i>
                     <h3>Open Hours</h3>
@@ -149,7 +148,7 @@ const Footer = () => {
               </div>
             </div> */}
           </Col>
-          <Col xs={11} md={6} className="add_overflow">
+          <Col style={{margin: "auto"}} xs={11} md={6} className="add_overflow">
             <div className="custom_contactus">
               {cms.error && (
                 <Alert className="m-0" color="danger">

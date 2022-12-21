@@ -1,7 +1,5 @@
 import React from "react";
-
 import Link from 'next/link'
-
 
 const BottomFooter = () => {
   return (
@@ -44,7 +42,7 @@ const BottomFooter = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+              <div className="useful_contact col-xl-4 col-lg-4 col-md-6 col-sm-6">
                 <div className="header_name">
                   <h3>Useful Links</h3>
                 </div>
@@ -78,7 +76,7 @@ const BottomFooter = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+              <div className="useful_contact2 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                 <div className="header_name">
                   <h3>Contact Us</h3>
                 </div>

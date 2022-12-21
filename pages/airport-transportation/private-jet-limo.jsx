@@ -15,8 +15,6 @@ function PrivateJetLimoServicePage(props) {
             title={props?.data1?.private_jet_page?.privateAviationAndRegional[0]?.metaTitle}
             description={props?.data1?.private_jet_page?.privateAviationAndRegional[0]?.metaDescription}
             canonical={`https://aadmirals.com${router?.pathname}`}
-           
-            
         />
      <PrivateJetLimoService data1={props.data1} />
     </>

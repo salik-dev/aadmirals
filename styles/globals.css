@@ -88,6 +88,9 @@ center h2 {
   border: 0;
   font-size: 14px;
 }
+.main_card_style{
+  width: 30vw !important;
+}
 .szh-menu li.szh-menu__submenu >div  {
   padding: .25rem 0 !important;
   background: transparent !important;
@@ -364,11 +367,8 @@ span.displayed-text .read-more-button {
   list-style: none;
   font-weight: 600;
   color: black;
-  
   font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
-
 }
-
 .services-links a:active{
   font-weight: 600;
   color: black;
@@ -421,15 +421,18 @@ span.displayed-text .read-more-button {
   .main_tabs_cnotent {
     padding: 0 16px 16px ;
   }
+  .main_card_style{
+    width: 99% !important;
+    margin-left: -19px;
+    }
 } 
-
 .swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events.mySwiper {
   padding-bottom: 3rem !important;
 }
-
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   background: #ee405e !important;
 }
+
 @media only screen  and (max-width: 576px){
   .contact_div{
     margin-left: 37px;
@@ -474,7 +477,7 @@ span.displayed-text .read-more-button {
       margin-left: 3vh;
   }
   .social_links {
-    margin-left: 8vh;
+    margin-left: 9vh;
     margin-top: -11px;    
 }
 .footer_logo{
