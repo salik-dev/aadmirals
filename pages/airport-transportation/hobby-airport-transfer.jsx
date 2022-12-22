@@ -29,5 +29,4 @@ export async function getStaticProps ({query}) {
   }
   return { props: {data1} }
 }
-
 export default HoustonHobbyAirportPage;
